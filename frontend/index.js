@@ -3,6 +3,9 @@ import APIHandler from "./api.js";
 const API = new APIHandler();
 
 // 카드 클래스
+// category: todo / ongoing / test / done
+// title: 카드 내용
+// cardElement: HTML DOM
 class Card {
   constructor(cardElement, title, id, category) {
     this.cardElement = cardElement;
